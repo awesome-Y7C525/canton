@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="canton-discovery-test-client" />
         <module name="common-util" />
         <module name="netflix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="canton" target="1.8" />
+      <module name="canton-discovery-test-client" target="1.8" />
       <module name="common-util" target="1.8" />
       <module name="netflix" target="1.8" />
     </bytecodeTargetLevel>
